@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width">
+  <title>Escuadron</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <h1>Calculadora de CORE</h1>
+
+  <b>Número:</b>
+  <input type="text" id="pantalla" onclick="vaciar()">
+
+  <h2 id="info" class="grande" title="Info sobre el número">Info sobre el número</h2>
+
+  <div id="OpUnitarias">
+    <h3 class="infoOperacion">Operaciones Unitarias:</h3>
+    <button id="cuadrado" onclick="cuadrado()">x<sup>2</sup </button>
+      <button id="mod" onclick="mod()">mod</button>
+      <button id="fact" onclick="fact()">n!</button>
+      <br>
+  </div>
+
+  <div id="OpBinarias">
+    <h3 class="infoOperacion">Operaciones Binarias:</h3>
+    <button id="suma" onclick="add()">+</button>
+    <button id="resta" onclick="resta()">-</button>
+    <button id="multiplicacion" onclick="mult()">x</button>
+    <button id="div" onclick="div()">÷</button>
+    <button id="rest" onclick="rest()">%</button>
+    <button id="pot" onclick="pot()">^</button>
+    <button id="igual" onclick="eq()">=</button>
+  </div>
+
+  <div id="OpCSV">
+    <h3 class="infoOperacion">Operaciones en formato CSV:</h3>
+    <button id="sumatorio" onclick="sumatorio()">Σx</button>
+    <button id="ordenar" onclick="ordenar()">ordenar</button>
+    <button id="revertir" onclick="revertir()">revertir</button>
+    <button id="quitar" onclick="quitar()">quitar</button>
+    <script src="script.js"></script>
+  </div>
+
+</body>
+
+</html>
