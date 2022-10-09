@@ -64,7 +64,6 @@ function guardaInput(numInput) {
     default:
       break;
   }
-  rellenar_info();
 }
 
 function mult() {
@@ -73,7 +72,6 @@ function mult() {
     total = document.getElementById("pantalla").value;
     operador = "multiplicador";
     vaciar();
-    rellenar_info();
   }
 }
 
@@ -82,7 +80,6 @@ function add() {
     guardaInput(Number(document.getElementById("pantalla").value));
     operador = "sumador";
     vaciar();
-    rellenar_info();
   }
 }
 
@@ -91,7 +88,6 @@ function resta() {
     guardaInput(Number(document.getElementById("pantalla").value));
     operador = "resta";
     vaciar();
-    rellenar_info();
   }
 }
 
@@ -100,7 +96,6 @@ function div() {
     guardaInput(Number(document.getElementById("pantalla").value));
     operador = "division";
     vaciar();
-    rellenar_info();
   }
 }
 
@@ -109,7 +104,6 @@ function rest() {
     guardaInput(Number(document.getElementById("pantalla").value));
     operador = "resto";
     vaciar();
-    rellenar_info();
   }
 }
 
@@ -118,7 +112,6 @@ function pot() {
     guardaInput(Number(document.getElementById("pantalla").value));
     operador = "potencia";
     vaciar();
-    rellenar_info();
   }
 }
 
